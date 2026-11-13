@@ -1,0 +1,17 @@
+.service { padding: 70px 40px; background: #0a0f2e; }
+.service-label { color: #aab4ff; font-size: 12px; letter-spacing: 2px; margin-bottom: 15px; }
+.service-top { display: flex; justify-content: space-between; gap: 30px; margin-bottom: 40px; }
+.service-top h2 { font-size: 42px; line-height: 1.1; }
+.service-top p { color: #cbd2ff; max-width: 400px; line-height: 1.6; }
+.service-grid { display: flex; gap: 20px; }
+.s-card { flex: 1; background: #151b45; border: 1px solid #2a357a; padding: 28px; border-radius: 18px; }
+.s-icon { font-size: 28px; margin-bottom: 18px; background: #2a357a; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; border-radius: 12px; }
+.s-card h3 { margin-bottom: 10px; font-size: 20px; }
+.s-card p { color: #cbd2ff; font-size: 14px; line-height: 1.6; margin-bottom: 18px; }
+.s-card ul { list-style: none; color: #d6daff; font-size: 13px; line-height: 2; }
+
+@media (max-width: 800px) {
+  .service { padding: 40px 16px; }
+  .service-top, .service-grid { flex-direction: column; }
+  .service-top h2 { font-size: 30px; }
+}

@@ -1,0 +1,7 @@
+
+.nav{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;padding:20px 20px 10px}
+.logo{font-size:28px;font-weight:800}.logo span{color:#a78bfa}
+.talk{border:1px solid #333;padding:8px 14px;border-radius:10px;color:white;text-decoration:none;font-size:14px}
+.links{width:100%;display:flex;justify-content:center;gap:28px;padding:14px 0;border-bottom:1px solid #222}
+.links a{color:#999;text-decoration:none;font-size:14px}.links .active{color:white}
+@media(min-width:700px){.links{width:auto;border:none;padding:0}.nav{padding:20px 40px}}
